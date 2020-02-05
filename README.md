@@ -1,4 +1,4 @@
-# openstack-centos7 install
+# openstack-centos install
 
 
 ![OpenStack](https://www.openstack.org/software/images/diagram/overview-diagram-new.svg)
@@ -10,7 +10,9 @@
 OpenStack es un conjunto de herramientas de software gratuito y de código abierto que se utiliza para la computación en la nube. Es adecuado tanto para nubes públicas como privadas. OpenStack se usa para administrar y controlar el almacenamiento de la computadora, la red y otros recursos de administración a través de un tablero. Es utilizado por muchas grandes empresas para administrar su servidor en la nube. En este artículo aprenderá cómo instalar la configuración todo en uno de OpenStack Train 
 
 
-## Openstack train centos7 Install
+## Openstack centos Install
+
+Versión Centos 7 compatible.
 
 Antes de instalar y usar Openstack, se recomienda desactivar firewalld, NetworkManager y SELinux en su máquina.
 
@@ -76,6 +78,7 @@ init 6
 
 ## Vamos instalar Openstack Train
 
+Si quiere verificar en que versión actual estan es solo reemplazar el nombre de la version por la nueva este caso se reemplaza train aca les dejo url de release. https://releases.openstack.org/
 
 ```bash
 yum install centos-release-openstack-train -y
